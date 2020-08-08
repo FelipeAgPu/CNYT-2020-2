@@ -1,7 +1,7 @@
 # CNYT-2020-2
 # Complex Numbers Calculator
 
-This is a library has somo different functions to perform some operations between complex numbers.
+This is a library has some different functions to perform some operations between complex numbers.
 
 ## Getting Started
 
