@@ -12,7 +12,7 @@ This is a library has some different functions to perform some operations betwee
 
 - Cloning the library
 
-You have to write this in your Git cmd
+You have to write this in your Git cmd(If you do not have Git on your computer you can install it [Here](https://git-scm.com/))
 ```git bash
 $ git clone https://github.com/FelipeAgPu/CNYT-2020-2.git
 ```
@@ -30,6 +30,14 @@ Here is a link where you can download and install it:
 
 ## Running the tests
 For running the predetermined test you have to open the file **test.py** in your prefered IDE and then just run it, later it will show you the results from the tests.
+
+If you want to use a function by your own you just have to open the file **complex.py** and run it then use this sintax:
+```python
+a = [3, 1]
+b = [4, -1]
+function_name(a, b)
+# a and b must be arrays
+```
 
 ### Break down into end to end tests
 
