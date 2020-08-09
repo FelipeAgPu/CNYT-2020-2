@@ -1,3 +1,5 @@
+#Autor Juan Felipe Aguas Pulido
+
 import unittest
 import complex
 
@@ -89,3 +91,6 @@ class TestComplex(unittest.TestCase):
         # Test 3
         result = complex.phase([7, -4])
         self.assertEqual(result, -0.519)
+
+if __name__ == '__main__':
+    unittest.main()
