@@ -97,6 +97,3 @@ def phase(c):
     """
     ans = math.atan(c[1] / c[0])
     return round(ans, 3)
-
-
-print(polar_to_coor([5, 3.15]))

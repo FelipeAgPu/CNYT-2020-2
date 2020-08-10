@@ -55,7 +55,7 @@ This tests are going to prove if the functions work well, for each function ther
 The tests should show something like this:
 ```python
 
-Ran 8 tests in 0.005s
+Ran 9 tests in 0.005s
 
 OK
 ```
