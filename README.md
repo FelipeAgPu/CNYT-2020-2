@@ -1,7 +1,7 @@
 # CNYT-2020-2
 # Complex Numbers Calculator
 
-This is a library has some different functions to perform some operations between complex numbers.
+This is a library that has some different functions to perform some operations between complex numbers.
 
 ## Getting Started
 
@@ -29,19 +29,26 @@ Here is a link where you can download and install it:
 - Be sure you have the library in the same folder of the project you want to implement it.
 
 ## Running the tests
-For running the predetermined test you have to open the file **test.py** in your prefered IDE and then just run it, later it will show you the results from the tests.
+For running the predetermined test you have to open the file **test.py** in your prefered IDE and then just run it, then it will show you the results from the tests.
 
-If you want to use a function by your own you just have to open the file **complex.py** and run it then use this sintax:
+If you want to use a function by your own, you just have to open the file **complex.py** and run it using this sintax:
 ```python
 a = [3, 1]
 b = [4, -1]
 function_name(a, b)
 # a and b must be arrays
 ```
-
 ### Break down into end to end tests
 
-This tests are going to prove if the functions work well, for each function there will be three different tests and they should show OK in every test.
+This tests are going to prove if the functions work well, for each function there will be three different tests and they should show OK in each one.
+The tests should show something like this:
+```python
+
+Ran 8 tests in 0.005s
+
+OK
+```
+The time can change in each run.
 
 ## Built with
 
