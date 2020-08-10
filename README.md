@@ -1,7 +1,18 @@
 # CNYT-2020-2
 # Complex Numbers Calculator
 
-This is a library that has some different functions to perform some operations between complex numbers.
+This is a repository that has some different functions to perform some operations between complex numbers.
+
+The operations this library does are:
+
+- Addition
+- Substraction
+- Multiplication
+- Division
+- Module
+- Conjugated
+- Convert from Cartesian coordinates to Polar coordinates and vice versa.
+- Phase
 
 ## Getting Started
 
