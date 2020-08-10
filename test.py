@@ -1,4 +1,4 @@
-#Autor Juan Felipe Aguas Pulido
+# Autor Juan Felipe Aguas Pulido
 
 import unittest
 import complex
@@ -72,14 +72,27 @@ class TestComplex(unittest.TestCase):
         result = complex.conj([0, -11])
         self.assertEqual(result, [0, 11])
 
-    def test_conv(self):
+    def test_conv1(self):
         # Test 1
         result = complex.coor_to_polar([-5, 2])
         self.assertEqual(result, [5.385, -0.381])
         # Test 2
-        result = complex.coor_to_polar([-5, 2])
-        self.assertEqual(result, [5.385, -0.381])
+        result = complex.coor_to_polar([3.15, 7.7])
+        self.assertEqual(result, [8.319, 1.182])
         # Test 3
+        result = complex.coor_to_polar([1, 0])
+        self.assertEqual(result, [1.0, 0.0])
+
+    def test_conv2(self):
+        # Test 1
+        result = complex.polar_to_coor([5, 3.15])
+        self.assertEqual(result, [-5.0, -0.042 ])
+        # Test 2
+        result = complex.polar_to_coor([1, 1])
+        self.assertEqual(result, [0.540, 0.841])
+        # Test 3
+        result = complex.polar_to_coor([0, -3])
+        self.assertEqual(result, [0, 0])
 
     def test_phase(self):
         # Test 1
@@ -91,6 +104,7 @@ class TestComplex(unittest.TestCase):
         # Test 3
         result = complex.phase([7, -4])
         self.assertEqual(result, -0.519)
+
 
 if __name__ == '__main__':
     unittest.main()

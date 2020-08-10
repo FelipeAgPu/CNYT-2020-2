@@ -31,7 +31,7 @@ def mult(c1, c2):
     :list c2: List of two items, first one the real part and second one the imaginary part
     :return list:
     """
-    ans = [c1[0]*c2[0] - c1[1]*c2[1], c1[0]*c2[1] + c1[1]*c2[0]]
+    ans = [round(c1[0]*c2[0] - c1[1]*c2[1], 3), round(c1[0]*c2[1] + c1[1]*c2[0], 3)]
     return ans
 
 
@@ -69,13 +69,23 @@ def conj(c):
 
 def coor_to_polar(c):
     """
-    Changes a complex number from coordinates to Polar
-    :list c: List of two items, first one the real part and second one the imaginary part
+    Changes a complex number from Cartesian to Polar coordinates
+    :list c: List of two items
     :return list:
     """
     p = mod(c)
     theta = math.atan(c[1] / c[0])
     ans = [round(p, 3), round(theta, 3)]
+    return ans
+
+
+def polar_to_coor(c):
+    """
+    Changes a complex number from Polar to Cartesian coordinates
+    :list c: List of two items, first one the real part and second one the imaginary part
+    :return list:
+    """
+    ans = [round(c[0] * math.cos(c[1]), 3), round(c[0] * math.sin(c[1]), 3)]
     return ans
 
 
@@ -87,3 +97,6 @@ def phase(c):
     """
     ans = math.atan(c[1] / c[0])
     return round(ans, 3)
+
+
+print(polar_to_coor([5, 3.15]))
