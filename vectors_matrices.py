@@ -146,7 +146,7 @@ def mult_mat(m1, m2):
     :return Array:
     """
     if len(m1[0]) == len(m2):
-        ans = [[[0,0] for i in range(len(m2[0]))] for i in range(len(m1))]
+        ans = [[[0, 0] for j in range(len(m2[0]))] for i in range(len(m1))]
         for i in range(len(m1)):
             for j in range(len(m2[0])):
                 for k in range(len(m1[0])):
@@ -261,5 +261,7 @@ def tensor(m1, m2):
     for i in range(len(ans)):
         for j in range(len(ans[0])):
             ans[i][j] = mult_escalar_mat(m1[i][j], m2)
-    return  ans
+    return ans
+
+
 
