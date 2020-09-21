@@ -43,3 +43,7 @@ class TestClassToQuan(unittest.TestCase):
         result = cq.clicks_cuant([[[1/2**0.5, 0], [1/2**0.5, 0], [0, 0]], [[0, -(1/2**0.5)], [0, 1/2**0.5], [0, 0]], [[0, 0], [0, 0], [0, 1]]],
                                  [[[1/3**0.5, 0]], [[0, 2/15**0.5]], [[(2/5) ** 0.5, 0]]], 1)
         self.assertEqual(result, [[0.299], [0.299], [0.399]])
+
+if __name__ == '__main__':
+    unittest.main()
+    
