@@ -34,12 +34,12 @@ For this experiment were used:
 When we did the experiment, we had to place the boxes far from the wall in order to see the interference pattern in an appropiate way.
 We saw that the pattern was similar to the reference one, so it is possible to explain what happens when we align the foil and the laser.
 
+![Pattern3](Images/Pattern1.jpeg)
+
 ## Explanation
 
 In the experiment we shoot a beam of light that pass a piece of aluminium foil, if this foil had just one slit we are going to see that the patter is a point representing that the probabilities
-are a hundred percent in that place which represents a deterministic system where the probabilities are 1 or 0. This is represented in the following image:
-
-
+are a hundred percent in that place which represents a deterministic system where the probabilities are 1 or 0.
 In the other hand, taking into account that we added one slit to the foil, we can use the Schrödinger wave equantion that explains very clear this experiment giving the theory pattern if there two slits without interference making 
 us think that the particle is in two places at the same time introducing the idea of a multiverse where the particle moves for making us think that it is in two places and at the end it finishes in the initial universe also it allow
 us to predict if we had interference what the impact result will look like.
@@ -48,7 +48,6 @@ through the slits where the probabilities of impact in the wall form the followi
 
 ![Pattern1](Images/Pattern1.jpeg)
 ![Pattern2](Images/Pattern1.jpeg)
-![Pattern3](Images/Pattern1.jpeg)
 
 Making us understand that in the center the probabilities are the highest ones but in the other concentracions its also possible to have there an impact. Therefore, 
 we noticed that the introduction of the slits change the graph a lot as if were no slits or there were two slits but we made the shoots one by one with one of the slits closed in every shoot.
@@ -58,9 +57,9 @@ Trying to understand this as a matrix we have the following state matrix:
 
 Where we can affirm that the highest probabilities are in the center of the pattern and that the other probabilities are equal.
 
-##Simulation
+## Simulation
 
-For simulating the experiment we use the libraries of this repository in the file **simulation.py** with the matrix given in the explanation and we introduced an initial state vector in the following image:
+For simulating the experiment we use the libraries of this repository with the matrix given in the explanation and we introduced an initial state vector in the following image:
 
 ![Vector](Images/Vector.png)
 
