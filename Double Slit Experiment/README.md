@@ -40,6 +40,8 @@ We saw that the pattern was similar to the reference one, so it is possible to e
 
 In the experiment we shoot a beam of light that pass a piece of aluminium foil, if this foil had just one slit we are going to see that the patter is a point representing that the probabilities
 are a hundred percent in that place which represents a deterministic system where the probabilities are 1 or 0.
+
+
 In the other hand, taking into account that we added one slit to the foil, we can use the Schrödinger wave equantion that explains very clear this experiment giving the theory pattern if there two slits without interference making 
 us think that the particle is in two places at the same time introducing the idea of a multiverse where the particle moves for making us think that it is in two places and at the end it finishes in the initial universe also it allow
 us to predict if we had interference what the impact result will look like.
@@ -71,6 +73,8 @@ Also, we used this in a probabilistic classic system with at least two clicks an
 
 ![Prob](Images/Probabilities.png)
 
+With these results we can affirm that our simulation is connected with the experiment because the highest probabilities are in the center in each case, making valid our
+experiment.
 
 ## Authors
 
