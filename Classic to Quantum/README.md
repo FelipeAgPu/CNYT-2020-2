@@ -36,6 +36,8 @@ Here is a link where you can download and install it:
 
 - Be sure you have the library is in the same folder of the project you want to implement it.
 
+- Verify that you have the files **complex.py** and **vectors_matrices.py** so you will don´t have import problems.
+
 - Also you have to install Numpy, Scipy and Matplotlib
 
 This is a video where you can leran how to install them [Installing libraries](https://www.youtube.com/watch?v=oE4KeuVNqcQ)
@@ -82,6 +84,7 @@ If you want to use a function by your own, you just have to open the file **clas
 v = [a, b, c, d]                 # Real vector
 function_name(v)
 ```
+This function doesn´t have a test because it will deploy an image so if you want to test it just run it as it says in the information above.
 
 ### Break down into end to end tests
 
@@ -107,3 +110,4 @@ These libraries were built with [Python 3.8](https://python.org/) using as IDE P
 
 ## License
 This proyect has a free use license.
+
